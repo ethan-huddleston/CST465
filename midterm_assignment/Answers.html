@@ -1,0 +1,152 @@
+<html><head>
+    <title>
+        
+    </title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/default.css">
+    
+
+    
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Midterm Exam</a>
+            </nav>
+            
+        </header>
+        <main>
+            <div>
+                        <h4>.NET Standard libraries only work with .NET Framework</h4>
+        <p>false</p>
+        <h4>Browsers must support ASP.NET in order to display pages created with it</h4>
+        <p>false</p>
+        <h4>It is good practice to use inline CSS styles</h4>
+        <p>false</p>
+        <h4>Razor View code beginning with @ is interpreted by the browser</h4>
+        <p>false</p>
+        <h4>HTTP Status Code 200 indicates an error</h4>
+        <p>false</p>
+        <h4>The description meta element is useful for search engine optimization</h4>
+        <p>true</p>
+        <h4>MVC is a design pattern only used by Microsoft ASP.NET technologies</h4>
+        <p>false</p>
+        <h4>It is important that @section definitions be in the correct order within a view</h4>
+        <p>false</p>
+        <h4>A SqlCommand object will automatically close the associated connection when it is done executing</h4>
+        <p>false</p>
+        <h4>The repository design pattern serves to decouple the business logic layer form the specifics how/where data is stored</h4>
+        <p>true</p>
+        <h4>List the following in the order of precedence (highest to lowest) for defining CSS styles: internal stylesheet, browser stylesheet, external stylesheet, inline style</h4>
+        <p>inline style, internal style sheet, external style sheet, browser default style sheet</p>
+        <h4>List the following CSS selector QuestionTypes in order of precedence (highest to lowest): element selector, attribute/class selector, ID selector, inline style</h4>
+        <p>id selector, attribute/class selector, element selector, inline style</p>
+        <h4>Why should you always use parameters for SQL statements instead of directly concatenating values into the string?</h4>
+        <p>if you don't it leaves database open to sql injection attacks</p>
+        <h4>An ASP.NET website should never allow the code to write data to the project folder on the server, with the exception of what special folder?</h4>
+        <p> the app_data folder</p>
+        <h4>Given the following CSS for a div, what are the final height and width of each div box? div{width: 50px; height: 25px; padding: 5px 10px;}</h4>
+        <p>height 30px and width 60px</p>
+        <h4>Given the following CSS for a div, what are the final height and width of each div box?(Duplicate specification of margin is intentional) div{width: 30px; height: 20px; padding: 5px; margin: 3px 2px 5px 5px; border: solid 1px #000; margin-left: 10px;}</h4>
+        <p>height is 38px and width is 52 px</p>
+        <h4>Given the following CSS selector, how many ID selectors, class/attribute selectors and element selectors are there (e.g. ID:1,Class/Attribute:2, Element:0)&lt;br /&gt;html body main.mainSection div ul#anchorList .item a[data-QuestionType="statusLink"]{}</h4>
+        <p>ID:1,Class/Attribute:1, Element:1</p>
+        <h4>What is _ViewStart.cshtml used for?</h4>
+        <p>used to specify a layout file that should be in every view</p>
+        <h4>What is _ViewImports.cshtml used for?</h4>
+        <p>used to specify namespaces that should be in every view</p>
+        <h4>What HTTP 'method' is used when you QuestionType an address into the location bar of your browser and press 'Enter'?</h4>
+        <p>a GET method</p>
+        <h4>What is the purpose of the DOCQuestionType declaration at the top of a web page</h4>
+        <p>gives the document type declaration, this tells the browser about what kind of document it is and what kind of information to expect. for html it tells the browser what version of html the document will be.</p>
+        <h4>What is the difference between inline and block HTML elements</h4>
+        <p>inline take up only as much space as their content meanwhile block elements take up the full width of the container regardless of the amount of content.</p>
+        <h4>Explain why the alt attribute of the img tag is important</h4>
+        <p>the alt attribute replaces the image when the image doesn't load in with a description of the image, this is useful to the user to know what the image should have been and useful to search engines to know what the image would have been as well.</p>
+        <h4>Explain how a using(){ } block functions and what QuestionTypes of objects it applies to</h4>
+        <p>the using block statement works by making every object in the block statement disposable and calls an idisposable instance at the end of the block. this ensures that everything in the block is properly cleaned up and disposed of. the types of objects you would want to use this on are file streams and database connections to ensure the connections are closed and no memory leaks happen</p>
+        <h4>I often drone on about HTML being a semantic language.  What do I mean, and how does this affect the way HTML should be written</h4>
+        <p>html is a semantics language in the fact that the tags in html clearly define their content and what they are. As such an html document is clearly defined in what it's doing. this affects how to write html because there is a priority to have a clear document that you can understand what the structure is, what its doing and what's important.</p>
+        <h4>A business object can be used as the model as part of the MVC pattern.  Why would we create a model separate from this for use with the view?</h4>
+        <p>views should only be the graphical representation of data. views having business objects/logic can cause disorganization, be harder to test, and be more prone to bugs since instead of having all of the logic in one place, its spread out between the model and different views. this also causes the view to have dependency of that specific model rather than being decoupled and independent.</p>
+        <h4>Name two benefits of using dependency injection</h4>
+        <p>gives flexibility and easability during testing. examples: easily lets you swap out objects for testing specific components of your system and mappings can be put in a config file so it doesn't require a recompile for swapping out concrete types.</p>
+        <h4>HTML Stands For</h4>
+        <p>HyperText Markup Language</p>
+        <h4>For accessibility, all controls that ask for user input must have an associated:</h4>
+        <p>validator</p>
+        <h4>Which of the following elements is most appropriate for presenting the user with a list of items in no particular order?</h4>
+        <p>ul</p>
+        <h4>The living version of a page within the browser is called the</h4>
+        <p>ViewModel</p>
+        <h4>Given the following HTML, which selector matches and is the most specific for referring to the innermost div?&lt;br /&gt;&amp;lt;div&amp;gt;&amp;lt;div ID="specificBox" class="color"&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;div&amp;gt;</h4>
+        <p>div#specificBox.color</p>
+        <h4>Given the following route definition, and assuming the site only contains one controller named HomeController with no attribute routing, which of the following URLs is invalid?&lt;br /&gt;{controller=Home}/{action=Index}/{ID?}</h4>
+        <p>/Index</p>
+        <h4>In MVC, business logic is intended to be placed in</h4>
+        <p>The Controller</p>
+        <h4>Which of the following is not a valid HTTP method?</h4>
+        <p>UPDATE</p>
+        <h4>Which of the following elements should all pages contain?</h4>
+        <p>title</p>
+        <h4>Which of the following view QuestionTypes can accept a model and render output that is at the discretion of the developer?</h4>
+        <p>All of the above</p>
+        <h4>Given the following HTML input, what key/value pair will be sent to the server?&lt;br /&gt;&amp;lt;input QuestionType="text" ID="FirstName" name="Name" value="Jordan" placeholder="Richard" /&amp;gt;</h4>
+        <p>FirstName:Jordan</p>
+        <h4>When a server sends a cache-control header specifying how clients/proxies can store the data, this is referred to as _____________ caching.</h4>
+        <p>Response </p>
+        <h4>When a server renders the output of a view and stores this output in memory for faster page serving, this is referred to as _____________ caching.</h4>
+        <p>Output</p>
+        <h4>When a server stores a subset of information, such as data queried from a repository, to a location such as memory or a caching utility to speed up the rendering of the page, this is referred to as _____________ caching.</h4>
+        <p>data</p>
+        <h4>Other than defying convention, renaming the Models folder in your project won't lead to any issues</h4>
+        <p>true</p>
+        <h4>Other than defying convention, renaming the Views folder in your project won't lead to any issues</h4>
+        <p>false</p>
+        <h4>Other than defying convention, renaming the Controllers folder in your project won't lead to any issues.</h4>
+        <p>true</p>
+        <h4>ASP.NET uses model-binding to automatically map data passed in to a controller into a model object.  How might this enable form over-posting, and how can we prevent it?</h4>
+        <p>since its an object model binded in, there is a chance that the model items are also the names of columns in the database. so all you have to do is inspect and modify the form to insert your own values and submit. best way to prevent that is to tell the controller method which properties of the model it should be expecting.</p>
+        <h4>What is the difference in routing between using app.MapControllers() and app.MapDefaultControllerRoute() in an ASP.NET Core application?</h4>
+        <p>the default controller route has conventional routing with the default routing pattern and map controllers can specify the pattern of routing and has attribute routing enabled.</p>
+        <h4>When jQuery validation is used on the client-side, it is still necessary to check ModelState.IsValid in the controller action</h4>
+        <p>false</p>
+        <h4>Turning on the display of exceptions to the user is a good idea in production environments so that your users can more easily report errors that they run into on your site</h4>
+        <p>false</p>
+        <h4>With regards to Dependency Injection, a Transient object refers to one that</h4>
+        <p>Is created every time an instance of the object is asked for in your application</p>
+        <h4>With regards to Dependency Injection, a Scoped object refers to one that </h4>
+        <p>Is created once for each request to the web server</p>
+        <h4>With regards to Dependency Injection, a Singleton object refers to one that </h4>
+        <p>Is created once for each QuestionType of object that is utilizing it</p>
+        <h4>When using a Bootstrap grid, the count of column widths should always add up to ___________ within a row</h4>
+        <p>12</p>
+        <h4>Special pieces of code that handle the HTTP request/response pipeline in ASP.NET are known as </h4>
+        <p>middleware</p>
+        <h4>Does the order in which middleware is registered matter?  Why or Why Not?</h4>
+        <p>the order of how middleware is very important, not only does each component chooses whether or not to pass on a request it can also modify the request. an example of this is authentication and authorization. if you authorize before you authenticate then authentication is useless.</p>
+        <h4>One great thing about extension methods is that they can access private variables of the classes they extend</h4>
+        <p>false</p>
+        <h4>When referemce a model in a view, @model refers to the instance of the object and @Model is used at the top to declare the QuestionType of the instance</h4>
+        <p>true</p>
+        <h4>In which file do you register items with the dependency injection container in an ASP.NET Core application?</h4>
+        <p> the program.cs file</p>
+        <h4>In which file do you add middleware to the pipeline in an ASP.NET Core application?</h4>
+        <p> the program.cs file</p>
+        <h4>How many items on a web page are allowed to have the same value for the ID attribute?</h4>
+        <p>only one</p>
+        <h4>How many items on a web page are allowed to have the same value for the class attribute?</h4>
+        <p>any number of objects</p>
+        <h4>With regards to middleware, explain what is meant by short-circuiting the pipeline and how it is achieved</h4>
+        <p>short circuiting the pipeline is idea of cutting off the processing of a request and immediately returning after a specific condition is met.</p>
+
+            </div>
+        </main>
+        </div>
+        
+<script src="/_framework/aspnetcore-browser-refresh.js"></script>
+</div></body></html>

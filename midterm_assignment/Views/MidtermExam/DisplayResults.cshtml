@@ -1,0 +1,8 @@
+@model List<TestQuestionModel>
+@{
+    foreach(var index in Model)
+    {
+        <h4>@index.Question</h4>
+        <p>@index.Answer</p>
+    }
+}
