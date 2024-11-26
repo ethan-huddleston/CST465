@@ -35,7 +35,11 @@ public class MidtermExamController : Controller
         List<TestQuestionModel> questionModels = GetQuestionModels();
         for(int index = 0; index < questionModels.Count; index ++)
         {
-            questionModels[index].Answer = model[index].Answer;
+            if(index < model.Count)
+            {
+                questionModels[index].Answer = model[index].Answer;
+            }
+            
         }
         
         if(!ModelState.IsValid)
